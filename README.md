@@ -8,9 +8,9 @@
 
 *208 production-grade skills across 13 categories. One library to rule them all.*
 
-[![GitHub Stars](https://img.shields.io/github/stars/shivamsingh-007/Skill-is-All-you-Need?style=flat-square&color=FFD700&labelColor=0a0a0a)](https://github.com/shivamsingh-007/Skill-is-All-you-Need/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/shivamsingh-007/Skill-is-All-you-Need?style=flat-square&color=00D4AA&labelColor=0a0a0a)](https://github.com/shivamsingh-007/Skill-is-All-you-Need/network/members)
-[![GitHub Issues](https://img.shields.io/github/issues/shivamsingh-007/Skill-is-All-you-Need?style=flat-square&color=FF6B6B&labelColor=0a0a0a)](https://github.com/shivamsingh-007/Skill-is-All-you-Need/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/ItwasYou-SAM/Skill-is-All-you-Need?style=flat-square&color=FFD700&labelColor=0a0a0a)](https://github.com/ItwasYou-SAM/Skill-is-All-you-Need/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/ItwasYou-SAM/Skill-is-All-you-Need?style=flat-square&color=00D4AA&labelColor=0a0a0a)](https://github.com/ItwasYou-SAM/Skill-is-All-you-Need/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/ItwasYou-SAM/Skill-is-All-you-Need?style=flat-square&color=FF6B6B&labelColor=0a0a0a)](https://github.com/shivamsingh-007/Skill-is-All-you-Need/issues)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square&labelColor=0a0a0a)](LICENSE)
 [![Skills](https://img.shields.io/badge/SKILLS-208-9B59B6?style=flat-square&labelColor=0a0a0a)](#-skill-library)
 
