@@ -187,6 +187,14 @@ Template: `name` · *"Use this skill when…"* description · 3–5 step process
 
 </details>
 
+## Star history
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ItWasYou-SAM/Skill-is-All-you-Need&type=Date&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ItWasYou-SAM/Skill-is-All-you-Need&type=Date" />
+  <img alt="Star history chart for Skill-is-All-you-Need" src="https://api.star-history.com/svg?repos=ItWasYou-SAM/Skill-is-All-you-Need&type=Date" />
+</picture>
+
 ## License
 
 This library is open-source under the [MIT license](LICENSE).
