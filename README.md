@@ -1,96 +1,199 @@
 <p align="center">
-  <img src="assets/readme/banner.svg" alt="Skill is All you Need — give your AI agent a brain upgrade" width="100%" />
+    <img src="assets/readme/logo.svg" width="480" alt="Skill is All you Need — logo, showing the skill chip mark beside the wordmark"/>
 </p>
-
-<h4 align="center">
-  <a href="#the-skills-people-reach-for-first">Headliners</a> |
-  <a href="#set-up-in-30-seconds">Quick Start</a> |
-  <a href="#the-full-library">Library</a> |
-  <a href="COMMANDS.md">Command Reference</a> |
-  <a href="#contributing">Contributing</a>
-</h4>
-
-<div align="center">
-  <h3>
-    249 expert skills your AI agent auto-loads. 13 domains. Zero config.<br />
-    Built for Claude Code, OpenCode, Cursor and Codex.
-  </h3>
-</div>
 
 <p align="center">
-  <a href="https://github.com/ItWasYou-SAM/Skill-is-All-you-Need/stargazers"><img src="https://img.shields.io/badge/%E2%AD%90%20STAR_IT-FFC53D?style=for-the-badge&labelColor=0B0B10&color=FFC53D" alt="Star this repo" /></a>
-  <a href="https://github.com/ItWasYou-SAM/Skill-is-All-you-Need/issues"><img src="https://img.shields.io/badge/ISSUES-welcome-5EC97C?style=for-the-badge&labelColor=0B0B10&color=5EC97C" alt="Issues" /></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/LICENSE-MIT-8B8A96?style=for-the-badge&labelColor=0B0B10&color=8B8A96" alt="MIT licensed" /></a>
+    <b>Expert skills for AI agents</b>
 </p>
 
-<div align="center">
-  <img src="assets/readme/headliners.svg" alt="Six headliner skills: design-taste-frontend, ui-ux-pro-max, code-review, hyperframes, deep-research, ecommerce-image-workflow" width="100%" />
-  <p align="center">
-    <sub>The skills people reach for first — anti-slop frontends, 161 design palettes, OWASP-grade
-    code review, a complete video pipeline, cited deep research, and studio product imagery.
-    241 more across <a href="#the-full-library">13 categories</a>.</sub>
-  </p>
-</div>
+<p align="center">
+    <a href="https://github.com/ItWasYou-SAM/Skill-is-All-you-Need">
+        <img src="https://img.shields.io/github/last-commit/ItWasYou-SAM/Skill-is-All-you-Need.svg?style=flat&color=blue" alt="Last commit"/>
+    </a>
+    <a href="https://github.com/ItWasYou-SAM/Skill-is-All-you-Need/issues">
+        <img src="https://img.shields.io/github/issues/ItWasYou-SAM/Skill-is-All-you-Need.svg?style=flat&color=success" alt="Issues"/>
+    </a>
+    <a href="https://github.com/ItWasYou-SAM/Skill-is-All-you-Need/stargazers">
+        <img src="https://img.shields.io/github/stars/ItWasYou-SAM/Skill-is-All-you-Need?style=flat&color=blue" alt="Stars"/>
+    </a>
+    <a href="https://github.com/ItWasYou-SAM/Skill-is-All-you-Need/network/members">
+        <img src="https://img.shields.io/github/forks/ItWasYou-SAM/Skill-is-All-you-Need?style=flat&color=success" alt="Forks"/>
+    </a>
+    <a href="LICENSE">
+        <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT licensed"/>
+    </a>
+</p>
 
-<div align="center">
-  <img src="assets/readme/value.svg" alt="Without skills: generic output, repeated mistakes, hours of prompt tuning. With 249 skills: precise output, baked-in guardrails, one trigger." width="100%" />
-</div>
+Skill is All you Need is a curated library of **249 production-grade skills** that turn generic AI agents into domain experts — covering design, frontend engineering, video, quality, research and more.
 
-## Set up in 30 seconds
+![architecture](assets/readme/architecture.svg)
 
-<div align="center">
-  <img src="assets/readme/workflow.svg" alt="A natural-language request auto-loads the code-review and security skills, returning severity-ranked findings" width="100%" />
-</div>
+The key component of the library is a skill: a self-contained instruction folder with a `SKILL.md` that tells the agent what the skill does, when to activate, the process to run and the output format to return. Read the descriptions of installed skills and the agent decides which to use for each request — no slash commands, no configuration.
 
+This foundation gives your agent expert checklists, taste and guardrails built from real usage instead of trial and error. Build polished frontends, review PRs, ship video and run deep research — all with deterministic quality, every run.
+
+Summary of library features:
+
+- 🧠 **249 skills across 13 domains** — from anti-slop UI design to OWASP-grade code review
+- 🪄 **Auto-invoked** — skills load themselves from natural language, exactly when needed
+- 🎯 **Deterministic quality** — explicit checklists and output formats instead of vibes
+- 🛡️ **Production guardrails** — the mistakes real projects paid for, encoded and enforced
+- 📄 **Markdown-native** — every skill is a readable, editable `SKILL.md`, no lock-in
+- 🔌 **Works everywhere** — Claude Code, OpenCode, Cursor, Codex; copy skills anywhere
+- 🔋 **Batteries included** — 500+ trigger phrases indexed in [COMMANDS.md](COMMANDS.md)
+- 🧩 **Composable** — skills chain together, like `code-review` + `security-and-hardening`
+
+Skill is All you Need is open-source under an MIT license, and is built on top of [Claude Code](https://claude.ai), [Agent Skills](https://github.com/anthropics/agent-skills), [Open Design](https://github.com/nexu-io/open-design), [HyperFrames](https://github.com/heygen/hyperframes), [fal.ai](https://fal.ai) and [GSAP](https://greensock.com).
+
+> [!NOTE]
+>
+> Every skill here is a plain markdown instruction set — portable to any agent that supports the skills format. If a skill improves quality, reduces variance, encodes preferred structure or prevents repeat mistakes, it earns its place.
+
+## Why skills?
+
+![why](assets/readme/h-why.svg)
+
+Agents re-learn taste and process in every session without structure. Why install a skill library?
+
+![demo](assets/readme/value.svg)
+
+- Installed in minutes — clone once, copy once:
 ```bash
 git clone https://github.com/ItWasYou-SAM/Skill-is-All-you-Need.git
-cp -r Skill-is-All-you-Need/* ~/.claude/skills/   # or ~/.agents/skills/ · .cursor/skills/
+cp -r Skill-is-All-you-Need/* ~/.claude/skills/
 ```
+- Auto-invoked from plain speech — the same request now triggers a checklist:
+```
+"Review this PR for security issues"
+→ code-review + security-and-hardening
+→ severity-ranked findings with fix suggestions
+```
+- Run local — plain markdown files, nothing leaves your machine
+- Low footprint — install one category or one skill when you don't want it all
+- Browse everything — [COMMANDS.md](COMMANDS.md) indexes every skill and trigger phrase
 
-Then just ask — *"build a landing page"*, *"review this PR"*, *"make a launch video"* — the right skill loads itself.
+## Skill categories
 
-## The full library
+The library is organized into 13 categories, from creative production to engineering rigor.
 
 <div align="center">
-  <img src="assets/readme/hero.svg" alt="Skill index grid: 13 categories with skill counts, totalling 249 skills" width="100%" />
+  <img src="assets/readme/headliners.svg" alt="Six headliner skills with one-line pitches" width="100%"/>
 </div>
 
-<details>
-<summary><strong>Browse all 13 categories</strong></summary>
-<br>
+### Build
 
-| Category | Skills | Focus |
-| --- | ---: | --- |
-| [01 · UI/UX Design](./01-ui-ux-design) | 45 | Anti-slop frontends, design systems, Figma, brand |
-| [02 · Frontend Engineering](./02-frontend-engineering) | 23 | API design, 3D/WebGL, performance, testing |
-| [03 · Animation & Motion](./03-animation-motion) | 10 | GSAP suite, scroll triggers, motion principles |
-| [04 · Video Production](./04-video-production) | 22 | HyperFrames pipeline, captions, Remotion, Sora |
-| [05 · Image & Media](./05-image-media) | 19 | fal.ai suite, generation, upscaling, try-on |
-| [06 · Code Quality](./06-code-quality) | 19 | Debugging, review, TDD, hallucination detection |
-| [07 · Development Workflow](./07-development-workflow) | 27 | Git, CI/CD, deployment, security |
-| [08 · Agent & Skills](./08-agent-skills) | 41 | Skill creation, prompt engineering, parallel agents |
-| [09 · Research & Analysis](./09-research-analysis) | 12 | Deep research, content analysis, audio |
-| [10 · Document & Content](./10-document-content) | 15 | DOCX, PDF, PPTX, XLSX, changelogs |
-| [11 · Brand & Marketing](./11-brand-marketing) | 12 | Social cards, ad extraction, resumes |
-| [12 · Business & Productivity](./12-business-productivity) | 4 | File organization, invoicing, growth |
-| [13 · Reference & Tools](./13-reference-tools) | 5 | CLAUDE configs, Promptfoo, Shannon, MantisHub |
+Frontend, UI/UX and motion skills that push an agent's output from "generated" to "designed".
 
-</details>
+| Skill  | What it does  | Trigger |
+|:------:|:--------------|--------:|
+| `design-taste-frontend` | Anti-slop marketing sites, heroes and brand pages | "build a landing page" |
+| `ui-ux-pro-max` | 50+ styles, 161 palettes, 99 UX guidelines across 10 stacks | "design this screen" |
+| `gsap-*` | 8-module GSAP animation suite with scroll triggers | "animate this section" |
+
+### Ship
+
+Media production skills that go from prompt to finished asset.
+
+<div align="center">
+  <img src="assets/readme/workflow.svg" alt="A request auto-loads skills and returns structured output" width="100%"/>
+</div>
+
+| Skill  | What it does  | Trigger |
+|:------:|:--------------|--------:|
+| `hyperframes` | Complete video pipeline: script, storyboard, motion, render | "make a launch video" |
+| `fal-generate` | Image generation across 12 fal.ai modules | "generate product images" |
+| `ecommerce-image-workflow` | Studio product imagery: edit, upscale, try-on | "make my catalog" |
+
+### Operate
+
+Quality, workflow and research skills that keep output honest.
+
+| Skill  | What it does  | Trigger |
+|:------:|:--------------|--------:|
+| `code-review` | Severity-ranked reviews with fix suggestions | "review this PR" |
+| `security-and-hardening` | OWASP Top 10 and dependency traps, pre-flagged | "harden this service" |
+| `deep-research` | Multi-agent, cited research reports | "research my competitor" |
+| `bug-debugging` | Systematic root-cause debugging | "debug this failing test" |
+
+## Installation
+
+![install](assets/readme/h-install.svg)
+
+The easiest way is clone and copy
+
+```
+git clone https://github.com/ItWasYou-SAM/Skill-is-All-you-Need.git
+cp -r Skill-is-All-you-Need/* ~/.claude/skills/    # Claude Code
+```
+
+Also supported: `~/.agents/skills/` (OpenCode) and `.cursor/skills/` (Cursor). To cherry-pick categories or single skills:
+
+```
+cp -r Skill-is-All-you-Need/06-code-quality/* ~/.claude/skills/
+```
+
+## Skill guide
+
+See the table below for recommended first installs. Every skill earns its place by improving quality, reducing variance or preventing mistakes.
+
+| Domain                                                                     | Skill(s)                                                                 |
+| -------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| [Design & Frontend](./01-ui-ux-design)                                     | [design-taste-frontend](./01-ui-ux-design), [ui-ux-pro-max](./01-ui-ux-design) |
+| [Code Quality](./06-code-quality)                                          | [code-review](./06-code-quality), [bug-debugging](./06-code-quality)      |
+| [Security](./07-development-workflow)                                      | [security-and-hardening](./07-development-workflow)                      |
+| [Video](./04-video-production)                                             | [hyperframes](./04-video-production), [captions](./04-video-production)  |
+| [Images](./05-image-media)                                                 | [fal-generate](./05-image-media), [fal-upscale](./05-image-media)        |
+| [Research](./09-research-analysis)                                         | [deep-research](./09-research-analysis)                                  |
+| [Agents](./08-agent-skills)                                                | [brainstorming](./08-agent-skills), [agent-evals](./08-agent-skills)     |
+| [Docs](./10-document-content)                                              | [documentation-generator](./10-document-content)                         |
+| [Workflow](./07-development-workflow)                                      | [spec-driven-development](./07-development-workflow), [ship](./07-development-workflow) |
+
+Skills are plain folders on disk. Not sure where to start? Install `06-code-quality` first — quality skills pay for themselves on the first review.
+
+## Powered by the community
+
+Built on top of these open-source projects:
+
+| Project  | What the library uses  |
+|:------------ |:-------------|
+| [Agent Skills](https://github.com/anthropics/agent-skills) | Base skill format and concept |
+| [Open Design](https://github.com/nexu-io/open-design) | 157 design skills |
+| [HyperFrames](https://github.com/heygen/hyperframes) | Video production pipeline |
+| [fal.ai](https://fal.ai) | Image and media model hosting |
+| [GSAP](https://greensock.com) | Animation modules |
+| [Promptfoo](https://github.com/promptfoo) | LLM evaluation reference |
+| [Superpowers](https://github.com/superpowers) | Development workflows |
+
+## Further reading
+
+![further](assets/readme/h-further.svg)
+
+- [COMMANDS.md](COMMANDS.md) — every skill and trigger phrase in one file
+- [Hero visual source](assets/readme/hero.svg) — the full library as a skill index
+- [Workflow visual source](assets/readme/workflow.svg) — how auto-invoke works
+- [Project README history](https://github.com/ItWasYou-SAM/Skill-is-All-you-Need/commits/)
 
 ## Contributing
 
-One skill, one job. New skills pass the rubric — **differentiation, reliability, specificity, operational value, token cost** — then a PR. We review for quality, not quantity.
+For those who would like to contribute a skill, see the rubric below. One skill, one job — no knowledge dumps.
 
-## Star history
+<details>
+<summary>Skill rubric</summary>
+<br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ItWasYou-SAM/Skill-is-All-you-Need&type=Date&theme=dark" />
-  <img alt="Star history for Skill-is-All-you-Need" src="https://api.star-history.com/svg?repos=ItWasYou-SAM/Skill-is-All-you-Need&type=Date" />
-</picture>
+- **Differentiation** — is this skill unique?
+- **Reliability** — does it work consistently?
+- **Specificity** — is it actionable, with triggers?
+- **Operational value** — does it save time and effort?
+- **Cost** — is it worth the tokens?
+
+Template: `name` · *"Use this skill when…"* description · 3–5 step process · defined output format.
+
+</details>
 
 ## License
 
-[MIT](LICENSE)
+This library is open-source under the [MIT license](LICENSE).
 
 <p align="center">
   <a href="https://github.com/oil-oil/beautify-github-readme"><img src="assets/readme/signature.svg" width="300" alt="README made with beautify-github-readme" /></a>
