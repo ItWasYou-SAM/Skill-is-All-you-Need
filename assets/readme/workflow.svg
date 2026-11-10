@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="330" viewBox="0 0 1200 330"
+     role="img" aria-labelledby="wf-title wf-desc">
+  <title id="wf-title">How a skill is invoked</title>
+  <desc id="wf-desc">A natural-language request triggers the code-review and security skills, which return a severity-ranked structured review.</desc>
+
+  <defs>
+    <style>
+      .t-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .t-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="330" rx="24" fill="#0B0B10"/>
+
+  <!-- stage labels -->
+  <text class="t-mono" x="56" y="52" font-size="15" letter-spacing="3" fill="#8B8A96">01 · YOU SAY</text>
+  <text class="t-mono" x="428" y="52" font-size="15" letter-spacing="3" fill="#8B8A96">02 · AGENT LOADS</text>
+  <text class="t-mono" x="824" y="52" font-size="15" letter-spacing="3" fill="#8B8A96">03 · AGENT RETURNS</text>
+
+  <!-- flow arrows -->
+  <path d="M376 180 h44" stroke="#26262F" stroke-width="2"/>
+  <path d="M420 180 l-8 -5 v10 z" fill="#FFC53D"/>
+  <path d="M772 180 h44" stroke="#26262F" stroke-width="2"/>
+  <path d="M816 180 l-8 -5 v10 z" fill="#FFC53D"/>
+
+  <!-- panel 1: the request -->
+  <g id="request">
+    <rect x="56" y="72" width="320" height="190" rx="14" fill="#14141B" stroke="#26262F"/>
+    <text class="t-mono" x="76" y="106" font-size="18" fill="#6B6A75">"</text>
+    <text class="t-mono" x="90" y="106" font-size="19" font-weight="600" fill="#F2F0E9">Review this PR for</text>
+    <text class="t-mono" x="90" y="132" font-size="19" font-weight="600" fill="#F2F0E9">security issues.</text>
+    <rect x="278" y="112" width="3" height="24" fill="#FFC53D"/>
+    <text class="t-mono" x="76" y="182" font-size="15" fill="#8B8A96">no slash commands.</text>
+    <text class="t-mono" x="76" y="204" font-size="15" fill="#8B8A96">no config files.</text>
+  </g>
+
+  <!-- panel 2: skill auto-load -->
+  <g id="matched-skills">
+    <rect x="428" y="72" width="344" height="190" rx="14" fill="#14141B" stroke="#26262F"/>
+    <rect x="448" y="98" width="304" height="46" rx="10" fill="#1C1810" stroke="#4A3A12"/>
+    <text class="t-mono" x="462" y="126" font-size="17" font-weight="700" fill="#FFC53D">06/</text>
+    <text class="t-mono" x="496" y="126" font-size="17" fill="#F2F0E9">code-review</text>
+    <rect x="448" y="156" width="304" height="46" rx="10" fill="#1C1810" stroke="#4A3A12"/>
+    <text class="t-mono" x="462" y="184" font-size="17" font-weight="700" fill="#FFC53D">07/</text>
+    <text class="t-mono" x="496" y="184" font-size="17" fill="#F2F0E9">security-and-hardening</text>
+  </g>
+
+  <!-- panel 3: structured output -->
+  <g id="output">
+    <rect x="824" y="72" width="320" height="190" rx="14" fill="#14141B" stroke="#26262F"/>
+    <text class="t-mono" x="844" y="118" font-size="17" fill="#5EC97C">✓</text>
+    <text class="t-mono" x="868" y="118" font-size="16" fill="#F2F0E9">checklist applied, OWASP-10</text>
+    <text class="t-mono" x="844" y="146" font-size="17" fill="#5EC97C">✓</text>
+    <text class="t-mono" x="868" y="146" font-size="16" fill="#F2F0E9">deps scanned, traps caught</text>
+    <text class="t-mono" x="844" y="174" font-size="17" fill="#FFC53D">→</text>
+    <text class="t-mono" x="868" y="174" font-size="16" fill="#F2F0E9">severity-ranked findings</text>
+    <text class="t-mono" x="844" y="202" font-size="17" fill="#FFC53D">→</text>
+    <text class="t-mono" x="868" y="202" font-size="16" fill="#F2F0E9">concrete fix suggestions</text>
+  </g>
+
+  <!-- caption -->
+  <text class="t-sans" x="600" y="304" font-size="20" fill="#8B8A96" text-anchor="middle">One natural-language trigger in. Deterministic, checklist-driven work out.</text>
+</svg>
