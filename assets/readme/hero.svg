@@ -11,43 +11,43 @@
     </style>
   </defs>
 
-  <rect width="1200" height="360" rx="24" fill="#0B0B10"/>
+  <rect width="1200" height="360" rx="24" fill="#FAF5EA"/>
 
   <!-- ================= TITLE BLOCK ================= -->
   <g id="title-block" transform="translate(56 66)">
-    <rect x="0" y="2" width="10" height="10" fill="#FFC53D"/>
+    <rect x="0" y="2" width="10" height="10" fill="#C8890A"/>
     <text class="t-mono" x="22" y="12" font-size="16" letter-spacing="4"
-          fill="#8B8A96">AGENT SKILL LIBRARY</text>
+          fill="#8A8271">AGENT SKILL LIBRARY</text>
 
-    <text class="t-mono" x="0" y="78" font-size="62" font-weight="700" fill="#F2F0E9">SKILL IS ALL</text>
-    <text class="t-mono" x="0" y="142" font-size="62" font-weight="700" fill="#F2F0E9">ALL YOU NEED</text>
-    <rect x="0" y="158" width="192" height="5" fill="#FFC53D"/>
+    <text class="t-mono" x="0" y="78" font-size="62" font-weight="700" fill="#26241F">SKILL IS ALL</text>
+    <text class="t-mono" x="0" y="142" font-size="62" font-weight="700" fill="#26241F">ALL YOU NEED</text>
+    <rect x="0" y="158" width="192" height="5" fill="#C8890A"/>
 
-    <text class="t-sans" x="0" y="204" font-size="20" fill="#C6C4CE">Production-grade skills that turn a generic agent</text>
-    <text class="t-sans" x="0" y="230" font-size="20" fill="#C6C4CE">into a domain expert. No prompt tuning required.</text>
+    <text class="t-sans" x="0" y="204" font-size="20" fill="#55503F">Production-grade skills that turn a generic agent</text>
+    <text class="t-sans" x="0" y="230" font-size="20" fill="#55503F">into a domain expert. No prompt tuning required.</text>
 
-    <text class="t-mono" x="0" y="278" font-size="16" fill="#8B8A96">249 SKILLS · 13 CATEGORIES · MIT</text>
+    <text class="t-mono" x="0" y="278" font-size="16" fill="#8A8271">249 SKILLS · 13 CATEGORIES · MIT</text>
   </g>
 
   <!-- ================= SKILL INDEX GRID (real counts) ================= -->
   <g id="skill-index" transform="translate(700 74)">
     <!-- row 1 -->
-    <g><rect width="102" height="44" rx="10" fill="#14141B" stroke="#26262F"/><text class="t-mono" x="10" y="19" font-size="14" font-weight="700" fill="#FFC53D">01</text><text class="t-sans" x="32" y="19" font-size="14" font-weight="600" fill="#F2F0E9">UI/UX</text><text class="t-mono" x="10" y="36" font-size="13" fill="#8B8A96">45 SKILLS</text></g>
-    <g transform="translate(114 0)"><rect width="102" height="44" rx="10" fill="#14141B" stroke="#26262F"/><text class="t-mono" x="10" y="19" font-size="14" font-weight="700" fill="#FFC53D">02</text><text class="t-sans" x="32" y="19" font-size="14" font-weight="600" fill="#F2F0E9">FRONTEND</text><text class="t-mono" x="10" y="36" font-size="13" fill="#8B8A96">23 SKILLS</text></g>
-    <g transform="translate(228 0)"><rect width="102" height="44" rx="10" fill="#14141B" stroke="#26262F"/><text class="t-mono" x="10" y="19" font-size="14" font-weight="700" fill="#FFC53D">03</text><text class="t-sans" x="32" y="19" font-size="14" font-weight="600" fill="#F2F0E9">MOTION</text><text class="t-mono" x="10" y="36" font-size="13" fill="#8B8A96">10 SKILLS</text></g>
-    <g transform="translate(342 0)"><rect width="102" height="44" rx="10" fill="#14141B" stroke="#26262F"/><text class="t-mono" x="10" y="19" font-size="14" font-weight="700" fill="#FFC53D">04</text><text class="t-sans" x="32" y="19" font-size="14" font-weight="600" fill="#F2F0E9">VIDEO</text><text class="t-mono" x="10" y="36" font-size="13" fill="#8B8A96">22 SKILLS</text></g>
+    <g><rect width="102" height="44" rx="10" fill="#FFFFFF" stroke="#E5DCC8"/><text class="t-mono" x="10" y="19" font-size="14" font-weight="700" fill="#C8890A">01</text><text class="t-sans" x="32" y="19" font-size="14" font-weight="600" fill="#26241F">UI/UX</text><text class="t-mono" x="10" y="36" font-size="13" fill="#8A8271">45 SKILLS</text></g>
+    <g transform="translate(114 0)"><rect width="102" height="44" rx="10" fill="#FFFFFF" stroke="#E5DCC8"/><text class="t-mono" x="10" y="19" font-size="14" font-weight="700" fill="#C8890A">02</text><text class="t-sans" x="32" y="19" font-size="14" font-weight="600" fill="#26241F">FRONTEND</text><text class="t-mono" x="10" y="36" font-size="13" fill="#8A8271">23 SKILLS</text></g>
+    <g transform="translate(228 0)"><rect width="102" height="44" rx="10" fill="#FFFFFF" stroke="#E5DCC8"/><text class="t-mono" x="10" y="19" font-size="14" font-weight="700" fill="#C8890A">03</text><text class="t-sans" x="32" y="19" font-size="14" font-weight="600" fill="#26241F">MOTION</text><text class="t-mono" x="10" y="36" font-size="13" fill="#8A8271">10 SKILLS</text></g>
+    <g transform="translate(342 0)"><rect width="102" height="44" rx="10" fill="#FFFFFF" stroke="#E5DCC8"/><text class="t-mono" x="10" y="19" font-size="14" font-weight="700" fill="#C8890A">04</text><text class="t-sans" x="32" y="19" font-size="14" font-weight="600" fill="#26241F">VIDEO</text><text class="t-mono" x="10" y="36" font-size="13" fill="#8A8271">22 SKILLS</text></g>
     <!-- row 2 -->
-    <g transform="translate(0 56)"><rect width="102" height="44" rx="10" fill="#14141B" stroke="#26262F"/><text class="t-mono" x="10" y="19" font-size="14" font-weight="700" fill="#FFC53D">05</text><text class="t-sans" x="32" y="19" font-size="14" font-weight="600" fill="#F2F0E9">IMAGE</text><text class="t-mono" x="10" y="36" font-size="13" fill="#8B8A96">19 SKILLS</text></g>
-    <g transform="translate(114 56)"><rect width="102" height="44" rx="10" fill="#14141B" stroke="#26262F"/><text class="t-mono" x="10" y="19" font-size="14" font-weight="700" fill="#FFC53D">06</text><text class="t-sans" x="32" y="19" font-size="14" font-weight="600" fill="#F2F0E9">QUALITY</text><text class="t-mono" x="10" y="36" font-size="13" fill="#8B8A96">19 SKILLS</text></g>
-    <g transform="translate(228 56)"><rect width="102" height="44" rx="10" fill="#14141B" stroke="#26262F"/><text class="t-mono" x="10" y="19" font-size="14" font-weight="700" fill="#FFC53D">07</text><text class="t-sans" x="32" y="19" font-size="14" font-weight="600" fill="#F2F0E9">WORKFLOW</text><text class="t-mono" x="10" y="36" font-size="13" fill="#8B8A96">27 SKILLS</text></g>
-    <g transform="translate(342 56)"><rect width="102" height="44" rx="10" fill="#14141B" stroke="#26262F"/><text class="t-mono" x="10" y="19" font-size="14" font-weight="700" fill="#FFC53D">08</text><text class="t-sans" x="32" y="19" font-size="14" font-weight="600" fill="#F2F0E9">AGENTS</text><text class="t-mono" x="10" y="36" font-size="13" fill="#8B8A96">41 SKILLS</text></g>
+    <g transform="translate(0 56)"><rect width="102" height="44" rx="10" fill="#FFFFFF" stroke="#E5DCC8"/><text class="t-mono" x="10" y="19" font-size="14" font-weight="700" fill="#C8890A">05</text><text class="t-sans" x="32" y="19" font-size="14" font-weight="600" fill="#26241F">IMAGE</text><text class="t-mono" x="10" y="36" font-size="13" fill="#8A8271">19 SKILLS</text></g>
+    <g transform="translate(114 56)"><rect width="102" height="44" rx="10" fill="#FFFFFF" stroke="#E5DCC8"/><text class="t-mono" x="10" y="19" font-size="14" font-weight="700" fill="#C8890A">06</text><text class="t-sans" x="32" y="19" font-size="14" font-weight="600" fill="#26241F">QUALITY</text><text class="t-mono" x="10" y="36" font-size="13" fill="#8A8271">19 SKILLS</text></g>
+    <g transform="translate(228 56)"><rect width="102" height="44" rx="10" fill="#FFFFFF" stroke="#E5DCC8"/><text class="t-mono" x="10" y="19" font-size="14" font-weight="700" fill="#C8890A">07</text><text class="t-sans" x="32" y="19" font-size="14" font-weight="600" fill="#26241F">WORKFLOW</text><text class="t-mono" x="10" y="36" font-size="13" fill="#8A8271">27 SKILLS</text></g>
+    <g transform="translate(342 56)"><rect width="102" height="44" rx="10" fill="#FFFFFF" stroke="#E5DCC8"/><text class="t-mono" x="10" y="19" font-size="14" font-weight="700" fill="#C8890A">08</text><text class="t-sans" x="32" y="19" font-size="14" font-weight="600" fill="#26241F">AGENTS</text><text class="t-mono" x="10" y="36" font-size="13" fill="#8A8271">41 SKILLS</text></g>
     <!-- row 3 -->
-    <g transform="translate(0 112)"><rect width="102" height="44" rx="10" fill="#14141B" stroke="#26262F"/><text class="t-mono" x="10" y="19" font-size="14" font-weight="700" fill="#FFC53D">09</text><text class="t-sans" x="32" y="19" font-size="14" font-weight="600" fill="#F2F0E9">RESEARCH</text><text class="t-mono" x="10" y="36" font-size="13" fill="#8B8A96">12 SKILLS</text></g>
-    <g transform="translate(114 112)"><rect width="102" height="44" rx="10" fill="#14141B" stroke="#26262F"/><text class="t-mono" x="10" y="19" font-size="14" font-weight="700" fill="#FFC53D">10</text><text class="t-sans" x="32" y="19" font-size="14" font-weight="600" fill="#F2F0E9">DOCS</text><text class="t-mono" x="10" y="36" font-size="13" fill="#8B8A96">15 SKILLS</text></g>
-    <g transform="translate(228 112)"><rect width="102" height="44" rx="10" fill="#14141B" stroke="#26262F"/><text class="t-mono" x="10" y="19" font-size="14" font-weight="700" fill="#FFC53D">11</text><text class="t-sans" x="32" y="19" font-size="14" font-weight="600" fill="#F2F0E9">BRAND</text><text class="t-mono" x="10" y="36" font-size="13" fill="#8B8A96">12 SKILLS</text></g>
-    <g transform="translate(342 112)"><rect width="102" height="44" rx="10" fill="#14141B" stroke="#26262F"/><text class="t-mono" x="10" y="19" font-size="14" font-weight="700" fill="#FFC53D">12</text><text class="t-sans" x="32" y="19" font-size="14" font-weight="600" fill="#F2F0E9">BUSINESS</text><text class="t-mono" x="10" y="36" font-size="13" fill="#8B8A96">4 SKILLS</text></g>
+    <g transform="translate(0 112)"><rect width="102" height="44" rx="10" fill="#FFFFFF" stroke="#E5DCC8"/><text class="t-mono" x="10" y="19" font-size="14" font-weight="700" fill="#C8890A">09</text><text class="t-sans" x="32" y="19" font-size="14" font-weight="600" fill="#26241F">RESEARCH</text><text class="t-mono" x="10" y="36" font-size="13" fill="#8A8271">12 SKILLS</text></g>
+    <g transform="translate(114 112)"><rect width="102" height="44" rx="10" fill="#FFFFFF" stroke="#E5DCC8"/><text class="t-mono" x="10" y="19" font-size="14" font-weight="700" fill="#C8890A">10</text><text class="t-sans" x="32" y="19" font-size="14" font-weight="600" fill="#26241F">DOCS</text><text class="t-mono" x="10" y="36" font-size="13" fill="#8A8271">15 SKILLS</text></g>
+    <g transform="translate(228 112)"><rect width="102" height="44" rx="10" fill="#FFFFFF" stroke="#E5DCC8"/><text class="t-mono" x="10" y="19" font-size="14" font-weight="700" fill="#C8890A">11</text><text class="t-sans" x="32" y="19" font-size="14" font-weight="600" fill="#26241F">BRAND</text><text class="t-mono" x="10" y="36" font-size="13" fill="#8A8271">12 SKILLS</text></g>
+    <g transform="translate(342 112)"><rect width="102" height="44" rx="10" fill="#FFFFFF" stroke="#E5DCC8"/><text class="t-mono" x="10" y="19" font-size="14" font-weight="700" fill="#C8890A">12</text><text class="t-sans" x="32" y="19" font-size="14" font-weight="600" fill="#26241F">BUSINESS</text><text class="t-mono" x="10" y="36" font-size="13" fill="#8A8271">4 SKILLS</text></g>
     <!-- row 4 -->
-    <g transform="translate(0 168)"><rect width="102" height="44" rx="10" fill="#14141B" stroke="#26262F"/><text class="t-mono" x="10" y="19" font-size="14" font-weight="700" fill="#FFC53D">13</text><text class="t-sans" x="32" y="19" font-size="14" font-weight="600" fill="#F2F0E9">TOOLS</text><text class="t-mono" x="10" y="36" font-size="13" fill="#8B8A96">5 REFS</text></g>
-    <g transform="translate(114 168)"><rect width="218" height="44" rx="10" fill="#1C1810" stroke="#4A3A12"/><text class="t-mono" x="12" y="27" font-size="16" font-weight="700" fill="#FFC53D">Σ 249</text><text class="t-mono" x="78" y="27" font-size="15" fill="#8B8A96">AUTO-INVOKED</text></g>
+    <g transform="translate(0 168)"><rect width="102" height="44" rx="10" fill="#FFFFFF" stroke="#E5DCC8"/><text class="t-mono" x="10" y="19" font-size="14" font-weight="700" fill="#C8890A">13</text><text class="t-sans" x="32" y="19" font-size="14" font-weight="600" fill="#26241F">TOOLS</text><text class="t-mono" x="10" y="36" font-size="13" fill="#8A8271">5 REFS</text></g>
+    <g transform="translate(114 168)"><rect width="218" height="44" rx="10" fill="#FCF0CC" stroke="#E3C97F"/><text class="t-mono" x="12" y="27" font-size="16" font-weight="700" fill="#C8890A">Σ 249</text><text class="t-mono" x="78" y="27" font-size="15" fill="#8A8271">AUTO-INVOKED</text></g>
   </g>
 </svg>
