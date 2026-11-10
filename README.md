@@ -1,94 +1,97 @@
 <p align="center">
-  <img src="./assets/readme/banner.svg" width="100%" alt="Skill is All you Need — give your AI agent a brain upgrade: 249 production-grade skills across 13 domains, zero config, install shown in a terminal with the agent instantly producing designed output">
+  <img src="assets/readme/banner.svg" alt="Skill is All you Need — give your AI agent a brain upgrade" width="100%" />
 </p>
+
+<h4 align="center">
+  <a href="#the-skills-people-reach-for-first">Headliners</a> |
+  <a href="#set-up-in-30-seconds">Quick Start</a> |
+  <a href="#the-full-library">Library</a> |
+  <a href="COMMANDS.md">Command Reference</a> |
+  <a href="#contributing">Contributing</a>
+</h4>
+
+<div align="center">
+  <h3>
+    249 expert skills your AI agent auto-loads. 13 domains. Zero config.<br />
+    Built for Claude Code, OpenCode, Cursor and Codex.
+  </h3>
+</div>
 
 <p align="center">
-  <a href="https://github.com/ItWasYou-SAM/Skill-is-All-you-Need/stargazers"><img src="https://img.shields.io/badge/⭐_STAR_IT-FFC53D?style=for-the-badge&labelColor=0B0B10&color=FFC53D" alt="Star this repo"></a>
-  <img src="https://img.shields.io/badge/SKILLS-249-FFC53D?style=for-the-badge&labelColor=0B0B10&color=FFC53D" alt="249 skills">
-  <img src="https://img.shields.io/badge/LICENSE-MIT-8B8A96?style=for-the-badge&labelColor=0B0B10&color=8B8A96" alt="MIT License">
+  <a href="https://github.com/ItWasYou-SAM/Skill-is-All-you-Need/stargazers"><img src="https://img.shields.io/badge/%E2%AD%90%20STAR_IT-FFC53D?style=for-the-badge&labelColor=0B0B10&color=FFC53D" alt="Star this repo" /></a>
+  <a href="https://github.com/ItWasYou-SAM/Skill-is-All-you-Need/issues"><img src="https://img.shields.io/badge/ISSUES-welcome-5EC97C?style=for-the-badge&labelColor=0B0B10&color=5EC97C" alt="Issues" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/LICENSE-MIT-8B8A96?style=for-the-badge&labelColor=0B0B10&color=8B8A96" alt="MIT licensed" /></a>
 </p>
 
-## Why it matters
+<div align="center">
+  <img src="assets/readme/headliners.svg" alt="Six headliner skills: design-taste-frontend, ui-ux-pro-max, code-review, hyperframes, deep-research, ecommerce-image-workflow" width="100%" />
+  <p align="center">
+    <sub>The skills people reach for first — anti-slop frontends, 161 design palettes, OWASP-grade
+    code review, a complete video pipeline, cited deep research, and studio product imagery.
+    241 more across <a href="#the-full-library">13 categories</a>.</sub>
+  </p>
+</div>
 
-<p align="center">
-  <img src="./assets/readme/value.svg" width="100%" alt="Without skills: generic output, repeated mistakes, hours of prompt tuning. With 249 skills: precise structured output, baked-in guardrails, one natural-language trigger.">
-</p>
-
-Your agent hallucinate-checks nothing and re-learns everything. **These 249 skills are the fix** — expert checklists your agent auto-loads at the moment it needs them. No config, no slash commands.
-
-## The skills people reach for first
-
-<p align="center">
-  <img src="./assets/readme/headliners.svg" width="100%" alt="Six headliner skills: design-taste-frontend (anti-slop frontends), ui-ux-pro-max (161 palettes, 99 UX rules), code-review (OWASP-10), hyperframes (video pipeline), deep-research (multi-agent, cited sources), ecommerce-image-workflow (fal.ai product imagery)">
-</p>
-
-…241 more across [13 categories](#the-full-library) · every skill indexed in [`COMMANDS.md`](./COMMANDS.md).
-
-## Works like this
-
-<p align="center">
-  <img src="./assets/readme/workflow.svg" width="100%" alt="A natural-language request automatically loads the code-review and security skills, which return severity-ranked findings with fix suggestions">
-</p>
+<div align="center">
+  <img src="assets/readme/value.svg" alt="Without skills: generic output, repeated mistakes, hours of prompt tuning. With 249 skills: precise output, baked-in guardrails, one trigger." width="100%" />
+</div>
 
 ## Set up in 30 seconds
+
+<div align="center">
+  <img src="assets/readme/workflow.svg" alt="A natural-language request auto-loads the code-review and security skills, returning severity-ranked findings" width="100%" />
+</div>
 
 ```bash
 git clone https://github.com/ItWasYou-SAM/Skill-is-All-you-Need.git
 cp -r Skill-is-All-you-Need/* ~/.claude/skills/   # or ~/.agents/skills/ · .cursor/skills/
 ```
 
-Then just ask — *“build a landing page”, “review this PR”, “make a launch video”* — the right skill loads itself.
+Then just ask — *"build a landing page"*, *"review this PR"*, *"make a launch video"* — the right skill loads itself.
 
 ## The full library
 
-<p align="center">
-  <img src="./assets/readme/hero.svg" width="100%" alt="Skill index grid showing 13 categories with skill counts, totalling 249 skills">
-</p>
+<div align="center">
+  <img src="assets/readme/hero.svg" alt="Skill index grid: 13 categories with skill counts, totalling 249 skills" width="100%" />
+</div>
 
 <details>
-<summary><strong>View all 13 categories</strong></summary>
+<summary><strong>Browse all 13 categories</strong></summary>
 <br>
 
-| Category | Skills | What's inside |
+| Category | Skills | Focus |
 | --- | ---: | --- |
-| [01 · UI/UX Design](./01-ui-ux-design) | 45 | Anti-slop frontends, design systems, Figma, brand identity |
-| [02 · Frontend Engineering](./02-frontend-engineering) | 23 | API design, 3D/WebGL, performance, testing, Next.js |
-| [03 · Animation & Motion](./03-animation-motion) | 10 | GSAP ecosystem, scroll triggers, micro-interactions |
-| [04 · Video Production](./04-video-production) | 22 | HyperFrames pipeline, captions, motion graphics, Remotion |
-| [05 · Image & Media](./05-image-media) | 19 | fal.ai suite, generation & editing, upscaling, try-on |
-| [06 · Code Quality](./06-code-quality) | 19 | Debugging, code review, TDD, hallucination detection |
-| [07 · Development Workflow](./07-development-workflow) | 27 | Git, CI/CD, deployment, security, spec-driven dev |
+| [01 · UI/UX Design](./01-ui-ux-design) | 45 | Anti-slop frontends, design systems, Figma, brand |
+| [02 · Frontend Engineering](./02-frontend-engineering) | 23 | API design, 3D/WebGL, performance, testing |
+| [03 · Animation & Motion](./03-animation-motion) | 10 | GSAP suite, scroll triggers, motion principles |
+| [04 · Video Production](./04-video-production) | 22 | HyperFrames pipeline, captions, Remotion, Sora |
+| [05 · Image & Media](./05-image-media) | 19 | fal.ai suite, generation, upscaling, try-on |
+| [06 · Code Quality](./06-code-quality) | 19 | Debugging, review, TDD, hallucination detection |
+| [07 · Development Workflow](./07-development-workflow) | 27 | Git, CI/CD, deployment, security |
 | [08 · Agent & Skills](./08-agent-skills) | 41 | Skill creation, prompt engineering, parallel agents |
-| [09 · Research & Analysis](./09-research-analysis) | 12 | Deep research, content analysis, audio generation |
+| [09 · Research & Analysis](./09-research-analysis) | 12 | Deep research, content analysis, audio |
 | [10 · Document & Content](./10-document-content) | 15 | DOCX, PDF, PPTX, XLSX, changelogs |
-| [11 · Brand & Marketing](./11-brand-marketing) | 12 | Social cards, ad extraction, resume generation |
-| [12 · Business & Productivity](./12-business-productivity) | 4 | File organization, invoicing, developer growth |
+| [11 · Brand & Marketing](./11-brand-marketing) | 12 | Social cards, ad extraction, resumes |
+| [12 · Business & Productivity](./12-business-productivity) | 4 | File organization, invoicing, growth |
 | [13 · Reference & Tools](./13-reference-tools) | 5 | CLAUDE configs, Promptfoo, Shannon, MantisHub |
 
 </details>
 
-## Grab it & go
+## Contributing
 
-> 🚀 **Clone a category tonight** (see 30-second setup above) and compare your agent's output to yesterday's.
->
-> ⭐ If it saves you a prompt-tuning session, star this repo — it tells us which skills to grow.
+One skill, one job. New skills pass the rubric — **differentiation, reliability, specificity, operational value, token cost** — then a PR. We review for quality, not quantity.
 
-<details>
-<summary><strong>Contributing & building blocks</strong></summary>
-<br>
+## Star history
 
-One skill, one job. Pass the rubric: **differentiation · reliability · specificity · operational value · token cost**.
-
-Skill template: `name`, a *"Use this skill when…"* description, a 3–5 step process, and a defined output format. We review for quality, not quantity.
-
-Built on [Claude Code](https://claude.ai), [Agent Skills](https://github.com/anthropics/agent-skills), [Open Design](https://github.com/nexu-io/open-design), [HyperFrames](https://github.com/heygen/hyperframes), [fal.ai](https://fal.ai), [GSAP](https://greensock.com), [Promptfoo](https://github.com/promptfoo), [Superpowers](https://github.com/superpowers), plus curated practices from Addy Osmani and Karpathy.
-
-</details>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ItWasYou-SAM/Skill-is-All-you-Need&type=Date&theme=dark" />
+  <img alt="Star history for Skill-is-All-you-Need" src="https://api.star-history.com/svg?repos=ItWasYou-SAM/Skill-is-All-you-Need&type=Date" />
+</picture>
 
 ## License
 
-[MIT](./LICENSE) — free for personal and commercial use.
+[MIT](LICENSE)
 
 <p align="center">
-  <a href="https://github.com/oil-oil/beautify-github-readme"><img src="./assets/readme/signature.svg" width="300" alt="README made with beautify-github-readme"></a>
+  <a href="https://github.com/oil-oil/beautify-github-readme"><img src="assets/readme/signature.svg" width="300" alt="README made with beautify-github-readme" /></a>
 </p>
