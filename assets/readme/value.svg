@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="310" viewBox="0 0 1200 310"
+     role="img" aria-labelledby="ba-title ba-desc">
+  <title id="ba-title">Without skills vs with skills</title>
+  <desc id="ba-desc">Comparison: a generic agent producing inconsistent output versus a skilled agent invoking checklists from one natural-language trigger.</desc>
+
+  <defs>
+    <style>
+      .t-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .t-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="310" rx="24" fill="#0B0B10"/>
+
+  <!-- VS badge -->
+  <circle cx="600" cy="165" r="26" fill="#1C1810" stroke="#4A3A12"/>
+  <text class="t-mono" x="600" y="172" font-size="16" font-weight="700" fill="#FFC53D" text-anchor="middle">VS</text>
+  <path d="M566 165 h-8 M642 165 h8" stroke="#4A3A12" stroke-width="2"/>
+
+  <!-- WITHOUT -->
+  <g id="without" transform="translate(48 122)">
+    <rect width="504" height="142" rx="14" fill="#131318" stroke="#26262F"/>
+    <text class="t-mono" x="22" y="36" font-size="15" letter-spacing="3" fill="#8B8A96">WITHOUT SKILLS</text>
+    <text class="t-sans" x="22" y="70" font-size="17" fill="#8B8A96">✗  Generic, inconsistent output</text>
+    <text class="t-sans" x="22" y="98" font-size="17" fill="#8B8A96">✗  Same mistakes, every session</text>
+    <text class="t-sans" x="22" y="126" font-size="17" fill="#8B8A96">✗  Hours of prompt re-tuning</text>
+  </g>
+
+  <!-- WITH -->
+  <g id="polygon-with" transform="translate(648 122)">
+    <rect width="504" height="142" rx="14" fill="#1C1810" stroke="#4A3A12"/>
+    <text class="t-mono" x="22" y="36" font-size="15" letter-spacing="3" font-weight="700" fill="#FFC53D">WITH 249 SKILLS</text>
+    <text class="t-sans" x="22" y="70" font-size="17" fill="#F2F0E9">✓  Precise, structured, on-taste output</text>
+    <text class="t-sans" x="22" y="98" font-size="17" fill="#F2F0E9">✓  Production guardrails baked in</text>
+    <text class="t-sans" x="22" y="126" font-size="17" fill="#F2F0E9">✓  One natural-language trigger, done</text>
+  </g>
+</svg>

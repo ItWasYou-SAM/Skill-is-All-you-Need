@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="430" viewBox="0 0 1200 430"
+     role="img" aria-labelledby="hl-title hl-desc">
+  <title id="hl-title">Headliner skills</title>
+  <desc id="hl-desc">Six showcase cards for famous skills: design-taste-frontend, ui-ux-pro-max, code-review, hyperframes, deep-research, and ecommerce-image-workflow.</desc>
+
+  <defs>
+    <style>
+      .t-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .t-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="430" rx="24" fill="#0B0B10"/>
+
+  <g id="header">
+    <text class="t-mono" x="48" y="48" font-size="17" letter-spacing="3" font-weight="700" fill="#FFC53D">★ HEADLINERS</text>
+    <text class="t-mono" x="1152" y="48" font-size="15" letter-spacing="3" fill="#8B8A96" text-anchor="end">NOTABLE SKILLS</text>
+  </g>
+
+  <!-- card 1 -->
+  <g transform="translate(48 78)">
+    <rect width="352" height="152" rx="14" fill="#14141B" stroke="#26262F"/>
+    <text class="t-mono" x="20" y="34" font-size="14" font-weight="700" fill="#FFC53D">01/</text>
+    <text class="t-mono" x="54" y="34" font-size="18" font-weight="700" fill="#F2F0E9">design-taste-frontend</text>
+    <text class="t-sans" x="20" y="72" font-size="16" fill="#B9B7C2">Premium marketing sites &amp; heroes</text>
+    <text class="t-sans" x="20" y="94" font-size="16" fill="#B9B7C2">that don't look AI-made.</text>
+    <rect x="20" y="114" width="92" height="22" rx="11" fill="#1C1810" stroke="#4A3A12"/>
+    <text class="t-mono" x="32" y="129" font-size="13" font-weight="700" fill="#FFC53D">ANTI-SLOP</text>
+  </g>
+
+  <!-- card 2 -->
+  <g transform="translate(424 78)">
+    <rect width="352" height="152" rx="14" fill="#14141B" stroke="#26262F"/>
+    <text class="t-mono" x="20" y="34" font-size="14" font-weight="700" fill="#FFC53D">01/</text>
+    <text class="t-mono" x="54" y="34" font-size="18" font-weight="700" fill="#F2F0E9">ui-ux-pro-max</text>
+    <text class="t-sans" x="20" y="72" font-size="16" fill="#B9B7C2">Design intelligence: 50+ styles,</text>
+    <text class="t-sans" x="20" y="94" font-size="16" fill="#B9B7C2">161 palettes, 99 UX rules.</text>
+    <rect x="20" y="114" width="116" height="22" rx="11" fill="#1C1810" stroke="#4A3A12"/>
+    <text class="t-mono" x="32" y="129" font-size="13" font-weight="700" fill="#FFC53D">161 PALETTES</text>
+  </g>
+
+  <!-- card 3 -->
+  <g transform="translate(800 78)">
+    <rect width="352" height="152" rx="14" fill="#14141B" stroke="#26262F"/>
+    <text class="t-mono" x="20" y="34" font-size="14" font-weight="700" fill="#FFC53D">06/</text>
+    <text class="t-mono" x="54" y="34" font-size="18" font-weight="700" fill="#F2F0E9">code-review</text>
+    <text class="t-sans" x="20" y="72" font-size="16" fill="#B9B7C2">Severity-ranked PR reviews with</text>
+    <text class="t-sans" x="20" y="94" font-size="16" fill="#B9B7C2">security traps pre-flagged.</text>
+    <rect x="20" y="114" width="100" height="22" rx="11" fill="#1C1810" stroke="#4A3A12"/>
+    <text class="t-mono" x="32" y="129" font-size="13" font-weight="700" fill="#FFC53D">OWASP-10</text>
+  </g>
+
+  <!-- card 4 -->
+  <g transform="translate(48 258)">
+    <rect width="352" height="152" rx="14" fill="#14141B" stroke="#26262F"/>
+    <text class="t-mono" x="20" y="34" font-size="14" font-weight="700" fill="#FFC53D">04/</text>
+    <text class="t-mono" x="54" y="34" font-size="18" font-weight="700" fill="#F2F0E9">hyperframes</text>
+    <text class="t-sans" x="20" y="72" font-size="16" fill="#B9B7C2">Script in. Storyboard, motion,</text>
+    <text class="t-sans" x="20" y="94" font-size="16" fill="#B9B7C2">captions and rendered video out.</text>
+    <rect x="20" y="114" width="118" height="22" rx="11" fill="#1C1810" stroke="#4A3A12"/>
+    <text class="t-mono" x="32" y="129" font-size="13" font-weight="700" fill="#FFC53D">VIDEO SUITE</text>
+  </g>
+
+  <!-- card 5 -->
+  <g transform="translate(424 258)">
+    <rect width="352" height="152" rx="14" fill="#14141B" stroke="#26262F"/>
+    <text class="t-mono" x="20" y="34" font-size="14" font-weight="700" fill="#FFC53D">09/</text>
+    <text class="t-mono" x="54" y="34" font-size="18" font-weight="700" fill="#F2F0E9">deep-research</text>
+    <text class="t-sans" x="20" y="72" font-size="16" fill="#B9B7C2">Web-scale research reports with</text>
+    <text class="t-sans" x="20" y="94" font-size="16" fill="#B9B7C2">cited sources, not hallucinations.</text>
+    <rect x="20" y="114" width="128" height="22" rx="11" fill="#1C1810" stroke="#4A3A12"/>
+    <text class="t-mono" x="32" y="129" font-size="13" font-weight="700" fill="#FFC53D">MULTI-AGENT</text>
+  </g>
+
+  <!-- card 6 -->
+  <g transform="translate(800 258)">
+    <rect width="352" height="152" rx="14" fill="#14141B" stroke="#26262F"/>
+    <text class="t-mono" x="20" y="34" font-size="14" font-weight="700" fill="#FFC53D">05/</text>
+    <text class="t-mono" x="54" y="34" font-size="18" font-weight="700" fill="#F2F0E9">ecommerce-image-workflow</text>
+    <text class="t-sans" x="20" y="72" font-size="16" fill="#B9B7C2">Studio-grade product imagery:</text>
+    <text class="t-sans" x="20" y="94" font-size="16" fill="#B9B7C2">generate, edit, upscale, try-on.</text>
+    <rect x="20" y="114" width="76" height="22" rx="11" fill="#1C1810" stroke="#4A3A12"/>
+    <text class="t-mono" x="32" y="129" font-size="13" font-weight="700" fill="#FFC53D">FAL.AI</text>
+  </g>
+</svg>
