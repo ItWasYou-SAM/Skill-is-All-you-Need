@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="assets/readme/logo.svg" width="480" alt="Skill is All you Need — logo, showing the skill chip mark beside the wordmark"/>
+    <img src="logo.png" alt="Skill is All you Need — logo showing a doodled list card of 249 skills beside a blue and green wordmark"/>
 </p>
 
 <p align="center">
@@ -26,7 +26,7 @@
 
 Skill is All you Need is a curated library of **249 production-grade skills** that turn generic AI agents into domain experts — covering design, frontend engineering, video, quality, research and more.
 
-![architecture](assets/readme/architecture.svg)
+![architecture](docs/images/architecture.png)
 
 The key component of the library is a skill: a self-contained instruction folder with a `SKILL.md` that tells the agent what the skill does, when to activate, the process to run and the output format to return. Read the descriptions of installed skills and the agent decides which to use for each request — no slash commands, no configuration.
 
@@ -51,11 +51,9 @@ Skill is All you Need is open-source under an MIT license, and is built on top o
 
 ## Why skills?
 
-![why](assets/readme/h-why.svg)
+![why](docs/images/why.png)
 
 Agents re-learn taste and process in every session without structure. Why install a skill library?
-
-![demo](assets/readme/value.svg)
 
 - Installed in minutes — clone once, copy once:
 ```bash
@@ -77,7 +75,7 @@ cp -r Skill-is-All-you-Need/* ~/.claude/skills/
 The library is organized into 13 categories, from creative production to engineering rigor.
 
 <div align="center">
-  <img src="assets/readme/headliners.svg" alt="Six headliner skills with one-line pitches" width="100%"/>
+  <img src="docs/images/architecture.png" alt="Skill Library sketch diagram: natural language requests, checklists plus guardrails, Design, Video, Quality and Workflow domains" width="100%"/>
 </div>
 
 ### Build
@@ -93,10 +91,6 @@ Frontend, UI/UX and motion skills that push an agent's output from "generated" t
 ### Ship
 
 Media production skills that go from prompt to finished asset.
-
-<div align="center">
-  <img src="assets/readme/workflow.svg" alt="A request auto-loads skills and returns structured output" width="100%"/>
-</div>
 
 | Skill  | What it does  | Trigger |
 |:------:|:--------------|--------:|
@@ -117,7 +111,7 @@ Quality, workflow and research skills that keep output honest.
 
 ## Installation
 
-![install](assets/readme/h-install.svg)
+![install](docs/images/install.png)
 
 The easiest way is clone and copy
 
@@ -133,6 +127,8 @@ cp -r Skill-is-All-you-Need/06-code-quality/* ~/.claude/skills/
 ```
 
 ## Skill guide
+
+![models](docs/images/models.png)
 
 See the table below for recommended first installs. Every skill earns its place by improving quality, reducing variance or preventing mistakes.
 
@@ -152,6 +148,8 @@ Skills are plain folders on disk. Not sure where to start? Install `06-code-qual
 
 ## Powered by the community
 
+![apps](docs/images/apps.png)
+
 Built on top of these open-source projects:
 
 | Project  | What the library uses  |
@@ -166,12 +164,10 @@ Built on top of these open-source projects:
 
 ## Further reading
 
-![further](assets/readme/h-further.svg)
+![further](docs/images/further.png)
 
 - [COMMANDS.md](COMMANDS.md) — every skill and trigger phrase in one file
-- [Hero visual source](assets/readme/hero.svg) — the full library as a skill index
-- [Workflow visual source](assets/readme/workflow.svg) — how auto-invoke works
-- [Project README history](https://github.com/ItWasYou-SAM/Skill-is-All-you-Need/commits/)
+- [Project history](https://github.com/ItWasYou-SAM/Skill-is-All-you-Need/commits) — all 20+ revisions of this README
 
 ## Contributing
 
@@ -194,7 +190,3 @@ Template: `name` · *"Use this skill when…"* description · 3–5 step process
 ## License
 
 This library is open-source under the [MIT license](LICENSE).
-
-<p align="center">
-  <a href="https://github.com/oil-oil/beautify-github-readme"><img src="assets/readme/signature.svg" width="300" alt="README made with beautify-github-readme" /></a>
-</p>
